@@ -1,3 +1,5 @@
+using Newtonsoft.Json.Linq;
+
 namespace KataLeapYear.Tests
 {
     public class YearTests
@@ -14,6 +16,14 @@ namespace KataLeapYear.Tests
         public void IsLeapYearWhenDivisibleBy400(int value)
         {
             var year = new Year(value);
+
+            Assert.True(year.IsLeap());
+        }
+
+        [Test]
+        public void IsLeapYear1996()
+        {
+            var year = new Year(1996);
 
             Assert.True(year.IsLeap());
         }

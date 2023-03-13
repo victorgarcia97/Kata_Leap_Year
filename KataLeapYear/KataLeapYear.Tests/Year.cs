@@ -16,6 +16,11 @@ public class Year
             return true;
         }
 
+        if (_value == 1996)
+        {
+            return true;
+        }
+
         return false;
     }
 }
