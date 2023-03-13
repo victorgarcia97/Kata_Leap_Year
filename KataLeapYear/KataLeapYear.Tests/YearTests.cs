@@ -1,6 +1,6 @@
 namespace KataLeapYear.Tests
 {
-    public class Tests
+    public class YearTests
     {
         [SetUp]
         public void Setup()
@@ -8,9 +8,11 @@ namespace KataLeapYear.Tests
         }
 
         [Test]
-        public void Test1()
+        public void IsLeapYear1600()
         {
-            Assert.Pass();
+            var year = new Year(1600);
+
+            Assert.True(year.IsLeap());
         }
     }
 }
