@@ -14,5 +14,13 @@ namespace KataLeapYear.Tests
 
             Assert.True(year.IsLeap());
         }
+        
+        [Test]
+        public void IsNotLeapYear2023()
+        {
+            var year = new Year(2023);
+
+            Assert.False(year.IsLeap());
+        }
     }
 }
