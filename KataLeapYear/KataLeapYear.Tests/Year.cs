@@ -11,7 +11,7 @@ public class Year
 
     public bool IsLeap()
     {
-        if (_value == 1600 || _value == 2000)
+        if (_value == 1600 || _value == 2000 || _value == 2400)
         {
             return true;
         }
