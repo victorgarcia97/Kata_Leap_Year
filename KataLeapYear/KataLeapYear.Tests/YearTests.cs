@@ -7,26 +7,13 @@ namespace KataLeapYear.Tests
         {
         }
 
-        [Test]
-        public void IsLeapYear1600()
+        [Theory]
+        [TestCase(1600)]
+        [TestCase(2000)]
+        [TestCase(2400)]
+        public void IsLeapYearWhenDivisibleBy400(int value)
         {
-            var year = new Year(1600);
-
-            Assert.True(year.IsLeap());
-        }
-
-        [Test]
-        public void IsLeapYear2000()
-        {
-            var year = new Year(2000);
-
-            Assert.True(year.IsLeap());
-        }
-
-        [Test]
-        public void IsLeapYear2400()
-        {
-            var year = new Year(2400);
+            var year = new Year(value);
 
             Assert.True(year.IsLeap());
         }
