@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataLeapYear", "KataLeapYear\KataLeapYear.csproj", "{16920E94-909B-4883-842B-A259ED99AF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataLeapYear.Tests", "KataLeapYear.Tests\KataLeapYear.Tests.csproj", "{C3ABFC8D-9989-4D58-98D1-8A4DBECDDC73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16920E94-909B-4883-842B-A259ED99AF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16920E94-909B-4883-842B-A259ED99AF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16920E94-909B-4883-842B-A259ED99AF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16920E94-909B-4883-842B-A259ED99AF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3ABFC8D-9989-4D58-98D1-8A4DBECDDC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3ABFC8D-9989-4D58-98D1-8A4DBECDDC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3ABFC8D-9989-4D58-98D1-8A4DBECDDC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3ABFC8D-9989-4D58-98D1-8A4DBECDDC73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134FE1F5-C4B3-4A4B-B9BA-BD976B429854}
+	EndGlobalSection
+EndGlobal
