@@ -15,6 +15,10 @@ public class Year
         {
             return true;
         }
+        else if (_value % 100 == 0)
+        {
+            return false;
+        }
 
         if (_value % 4 == 0)
         {
