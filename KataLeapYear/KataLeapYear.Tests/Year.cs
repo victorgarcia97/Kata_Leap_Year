@@ -11,20 +11,6 @@ public class Year
 
     public bool IsLeap()
     {
-        if (_value % 400 == 0)
-        {
-            return true;
-        }
-        else if (_value % 100 == 0)
-        {
-            return false;
-        }
-
-        if (_value % 4 == 0)
-        {
-            return true;
-        }
-
-        return false;
+        return _value % 400 == 0  || _value % 4 == 0 && _value % 100 != 0;
     }
 }
