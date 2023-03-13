@@ -16,7 +16,7 @@ public class Year
             return true;
         }
 
-        if (_value == 1996 || _value == 2004)
+        if (_value == 1996 || _value == 2004 || _value == 2012)
         {
             return true;
         }
